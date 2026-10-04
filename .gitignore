@@ -1,0 +1,10 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# Local project configuration containing credentials
+include/config.h
+
+# OS files
+.DS_Store
+Thumbs.db

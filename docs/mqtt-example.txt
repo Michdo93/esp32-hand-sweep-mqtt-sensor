@@ -1,0 +1,15 @@
+MQTT examples
+
+State:
+Topic: sensors/hand-sweep-01/state
+Payload: ON
+
+Event:
+Topic: sensors/hand-sweep-01/event
+Payload: SWEEP
+
+Availability:
+Topic: sensors/hand-sweep-01/availability
+Payload: online
+
+The availability topic uses MQTT Last Will and Testament.
